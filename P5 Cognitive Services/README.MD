@@ -112,5 +112,35 @@ Al finaliar damos click en **Nuevo Paso**.
 21. Damos click en la carpeta que aparece al lado derecho del campo **Archivo**. Buscamos el archivo Google Sheets creado en Google Drive. En el campo de abajo buscamos la hoja de cálculo a utilizar. **IMPORTANTE si la hoja de cálculo no aparece debe eliminarse el paso actual y volverlo a crear.**
     ![Llenado de cmapos de Google Sheet](img/23.png)
 
-22. Aparecerá un nuevo input (add new parameter) al llenar los inputs del paso anterior. Debemos seleccionarlo y añadir los parámetros que se necesiten. Posteriormente, cada campo se llenará con la información que le corresponda tal y como se muestra en la imágen.  
+22. Aparecerá un nuevo input (add new parameter) al llenar los inputs del paso anterior. Debemos seleccionarlo y añadir los parámetros que se necesiten. Posteriormente, cada campo se llenará con la información que le corresponda tal y como se muestra en la imágen. En el apartado de **sentimiento** buscamos y seleccionamos **sentiment**. Al finalizar, creamos una acción.
     ![Llenando información a obtener del tweet](img/24.png)
+
+23. Seleccionamos Microsoft Teams **Publicar mensaje en un chat o canal**.
+    ![Usando conector para Teams](img/25.png)
+
+24. Al finalizar el paso anterior también pedirá inicio de sesión para Microsoft Teams.
+    ![Inicio de sesión en Teams](img/26.png)
+
+25. Llenamos los campos correspondientes. Se necesita:
+
+    - **Publicar Como**: Bot de Flow.
+    - **Publicar en**: Canal.
+    - **Equipo**: Seleccionar un equipo de Microsoft Teams.
+    - **Canal**: Canal del equipo a utilizar.
+    - **Mensaje**: Colocamos un mensaje personalizado. Podemos hacer uso de el **"Texto del Tweet"**, **"Twiteado por"**, etc.
+      ![Usando conector para Teams](img/27.png)
+
+26. Para hacer una prueba, damos click en **Ejecutar desencadenador**, nos vamos a Twitter y colocamos un nuevo tweet con el # de #iawizzards o el # que configuramos.
+    ![Ejecutando desencadenador](img/30.png)
+
+27. Para hacer una prueba, nos vamos a Twitter y colocamos un nuevo tweet con el # de #iawizzards o el # que configuramos.
+    ![Esperar mensaje de desencadenador](img/31.png)
+
+28. Por cada tweet con el # configurado se activará el desencadenador.
+    ![Esperar mensaje de desencadenador](img/32.png)
+
+29. Si entramos al canal de Teams configurado podrá verse nuestro mensaje.
+    ![Esperar mensaje de desencadenador](img/33.png)
+
+30. También en el Google Sheet se guardará la información.
+    ![Esperar mensaje de desencadenador](img/34.png)
