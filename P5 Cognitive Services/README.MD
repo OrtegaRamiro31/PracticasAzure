@@ -15,7 +15,7 @@ Uso de Cognitive Service para escribir mensaje en Teams al identificarse un #IAW
 ## Pasos
 
 1. Entrar a [Portal Azure](https://portal.azure.com).
-   ![Portal Azure](img/1.png)
+   ![Portal Azure](Img/1.png)
 
 2. En el buscador escribimos **Aplicación de funciones** o **Logic Apps**. Al entrar damos click en el botón de **Agregar**.
    ![Logic Apps](img/2.png)
