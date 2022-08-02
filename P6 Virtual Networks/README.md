@@ -1,6 +1,6 @@
-# Azure Functions
+# Azure Virtual Network
 
-Uso básico de Azure Virtual Network.
+Uso básico de Azure Virtual Network para emparejar dos máquinas virtuales con redes virtuales distintas.
 
 ---
 
